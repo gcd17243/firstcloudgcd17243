@@ -1,11 +1,11 @@
 <html>
  <head>
-  <title>a1</title>
+  <title>Introduce Yourself</title>
  </head>
  <body>
- <?php echo '<p>Hello World </p>'; 
-    putenv("DATABASE_URL=fred");
-    echo getenv("DATABASE_URL")
+ <?php echo '<p>Name:Nguyen Nam Ha</p>'; 
+echo '<p>ID:GCD17243</p>';
+echo '<p>Class:GCD0818</p>';
  ?> 
      
  </body>
