@@ -1,9 +1,9 @@
 <html>
  <head>
-  <title>PHP Test</title>
+  <title>a1</title>
  </head>
  <body>
- <?php echo '<p>Hello World from Netbeans</p>'; 
+ <?php echo '<p>Hello World </p>'; 
     putenv("DATABASE_URL=fred");
     echo getenv("DATABASE_URL")
  ?> 
