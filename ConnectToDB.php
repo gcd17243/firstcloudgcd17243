@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
 <body>
 
 <h1>DATABASE CONNECTION</h1>
@@ -35,7 +41,7 @@ $resultSet = $stmt->fetchAll();
 echo '<p>Students information:</p>';
 ?>
 <div id="container">
-<table class="table table-bordered table-condensed">
+<table style="width:100%" class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Student ID</th>
