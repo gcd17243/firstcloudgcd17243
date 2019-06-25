@@ -47,7 +47,7 @@ button:hover {
 <h6>ID:GCD17243</h6>
 <h2>Login Form</h2>
 
-<form action="/action_page.php">
+<form action="DatabaseIndex.php">
  
 
   <div class="container">
@@ -57,9 +57,9 @@ button:hover {
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" required>
     
-    <a href="DatabaseIndex.php" target="_blank" >    
+   
     <button type="submit">Login</button>
-</a>
+
 
   </div>
 
