@@ -7,14 +7,10 @@
 
         <h1>My first PHP page</h1>
 
-   <?php
-$result = mysqli_query($con, "SELECT description, due_date FROM wishes WHERE wisher_id=" . $wisherID);
-while ($row = mysqli_fetch_array($result)) {
-    echo "<tr><td>" . htmlentities($row["description"]) . "</td>";
-    echo "<td>" . htmlentities($row["due_date"]) . "</td></tr>\n";
-}
-mysqli_free_result($result);
-mysqli_close($con);
-?>
+<form action="wishlist.php" method="GET" name="wishList">
+      Show wish list of: <input type="text" name="user" value=""/>
+		<input type="submit" value="Go" />
+</form>
+</table>
     </body>
 </html>
